@@ -15,9 +15,10 @@ public class Seminar2 {
     // System.out.println(polindromSeminar("aa ss aa"));
     // System.out.println(polindrom("aa ss aA"));
     // System.out.println(longStrigCreator("test", 100));
+
     // String pathProject = System.getProperty("user.dir");
     // String pathFile = pathProject.concat("\\seminar2-1.txt");
-    // addingToFile(pathFile, longStrigCreator("world!", 10));
+    // addingToFile(pathFile, longStrigCreator("Hello,", 10));
 
     String pathProject = System.getProperty("user.dir");
     String pathFile2 = pathProject.concat("\\seminar2-2.txt");
