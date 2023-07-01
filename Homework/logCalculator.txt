@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-07-01T19:43:44.355983800Z</date>
+  <millis>1688240624355</millis>
+  <nanos>983800</nanos>
+  <sequence>0</sequence>
+  <logger>Homework.Homework2</logger>
+  <level>INFO</level>
+  <class>Homework.Homework2</class>
+  <method>calculator</method>
+  <thread>1</thread>
+  <message>5.0 + 15.0 = 20.0</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-07-01T19:44:24.172329700Z</date>
+  <millis>1688240664172</millis>
+  <nanos>329700</nanos>
+  <sequence>0</sequence>
+  <logger>Homework.Homework2</logger>
+  <level>INFO</level>
+  <class>Homework.Homework2</class>
+  <method>calculator</method>
+  <thread>1</thread>
+  <message>6.0 - 5.0 = 1.0</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-07-01T19:44:33.956305Z</date>
+  <millis>1688240673956</millis>
+  <nanos>305000</nanos>
+  <sequence>0</sequence>
+  <logger>Homework.Homework2</logger>
+  <level>INFO</level>
+  <class>Homework.Homework2</class>
+  <method>calculator</method>
+  <thread>1</thread>
+  <message>10.0 * 20.0 = 200.0</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-07-01T19:44:45.779531100Z</date>
+  <millis>1688240685779</millis>
+  <nanos>531100</nanos>
+  <sequence>0</sequence>
+  <logger>Homework.Homework2</logger>
+  <level>INFO</level>
+  <class>Homework.Homework2</class>
+  <method>calculator</method>
+  <thread>1</thread>
+  <message>5.0 / 4.0 = 1.25</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-07-01T19:44:53.799435700Z</date>
+  <millis>1688240693799</millis>
+  <nanos>435700</nanos>
+  <sequence>0</sequence>
+  <logger>Homework.Homework2</logger>
+  <level>INFO</level>
+  <class>Homework.Homework2</class>
+  <method>calculator</method>
+  <thread>1</thread>
+  <message>incorrect command</message>
+</record>
+</log>
