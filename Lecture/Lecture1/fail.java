@@ -1,4 +1,4 @@
-package Lecture.Lecture01;
+package Lecture1;
 
 import java.io.*;
 

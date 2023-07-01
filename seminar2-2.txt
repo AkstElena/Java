@@ -1,0 +1,6 @@
+.git
+Homework
+Lecture
+Seminar
+seminar2-1.txt
+test.bin
