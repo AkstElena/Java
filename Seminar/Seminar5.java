@@ -12,28 +12,31 @@ import java.util.TreeMap;
 public class Seminar5 {
 
   public static void main(String[] args) {
-
+    // task1();
     // task2();
+    // task3();
     task4();
 
   }
 
-  // static void task1() {
-  // // Task 1. Создать структуру для хранения номеров паспортов и фамилий
-  // // сотрудников.
-  // Map<String, String> workers = new HashMap<>();
-  // workers.put("92 05 553929", "Иванов");
-  // workers.put("92 05 321526", "Петров");
-  // workers.put("92 05 553929", "Сидоров");
-  // workers.put("92 20 553929", "Иванов");
-  // workers.put("92 25 321526", "Петров");
+  static void task1() {
+    // Task 1. Создать структуру для хранения номеров паспортов и фамилий
+    // сотрудников.
+    Map<String, String> workers = new HashMap<>();
+    workers.put("92 05 553929", "Иванов");
+    workers.put("92 05 321526", "Петров");
+    workers.put("92 05 235659", "Сидоров");
+    workers.put("92 20 556655", "Иванов");
+    workers.put("92 25 322111", "Петров");
 
-  // for (Map.Entry<String, String> worker : workers.entrySet() ) {
-  // if(workers.get)
+    for (Map.Entry<String, String> worker : workers.entrySet()) {
+      if (worker.getValue().equals("Иванов")) {
+        System.out.printf("Pasport number: %s, Worker surname: %s\n", worker.getKey(), worker.getValue());
+      }
 
-  // }
+    }
 
-  // }
+  }
 
   static void task2() {
     // Task 2. Написать метод, который переведет число из римского формата записи в
@@ -68,15 +71,14 @@ public class Seminar5 {
 
   static void task3() {
     // Написать метод, который сортирует строки по длине с помощью TreeMap.
-    // Строки с одинаковой длиной не должны “потеряться”.
     Scanner input = new Scanner(System.in);
-    System.out.println("Input a string: ");
+    System.out.print("Input a string: ");
     String[] words = input.nextLine().split(" ");
 
-    Map<String, String> sortedWords = new TreeMap<>();
+    Map<Integer, String> sortedWords = new TreeMap<>();
 
     for (String word : words) {
-      sortedWords.put("word.length()", word);
+      sortedWords.put(word.length(), word);
     }
 
     System.out.println(sortedWords);
@@ -85,8 +87,7 @@ public class Seminar5 {
   }
 
   static void task4() {
-    // Написать метод, который сортирует строки по длине с помощью TreeMap. Строки с
-    // одинаковой длиной не должны “потеряться”.
+    // Уточнение прошлой задачи. Строки с одинаковой длиной не должны “потеряться”.
     Scanner input = new Scanner(System.in);
 
     System.out.println("Input a string: ");
